@@ -1,5 +1,5 @@
 {
-"types":[ //Somebody call 9, 1, 1! Shawty's fire-burning on the dance floor! Oo-WA-oh, OH!
+"types":[
 {
   "name": "None",
   "number": 0,
@@ -63,7 +63,7 @@
   "offense": [0.0,1.0,1.0,1.0,1.0,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,2.0,1.0,1.0,0.5,1.0],
   "defense": [0.0,0.0,1.0,0.5,1.0,1.0,0.5,2.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,2.0,1.0]
 },{
-  "name": "Steel"/*fuck shitvision they ruined spyro and fuck you thunder! you can suck my dick!*/,
+  "name": "Steel",
   "number": 9,
   /*          Nor Fgt Fly Poi Grn Rok Bug Gho Ste Fir Wat Grs Ele Psy Ice Drg Drk Fai */
   "offense": [1.0,1.0,1.0,1.0,1.0,2.0,1.0,1.0,0.5,0.5,0.5,1.0,0.5,1.0,2.0,1.0,1.0,2.0],
@@ -84,7 +84,7 @@
   "defense": [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,0.5,0.5,2.0,2.0,1.0,0.5,1.0,1.0,1.0]
 },
 {
-  "name": "Grass"/*I seriously want this to end right now...*/,
+  "name": "Grass",
   "number": 12,
   /*          Nor Fgt Fly Poi Grn Rok Bug Gho Ste Fir Wat Grs Ele Psy Ice Drg Drk Fai */
   "offense": [1.0,1.0,0.5,0.5,2.0,2.0,0.5,1.0,0.5,0.5,2.0,0.5,1.0,1.0,1.0,0.5,1.0,1.0],
@@ -97,7 +97,7 @@
   "defense": [1.0,1.0,0.5,1.0,2.0,1.0,1.0,0.0,0.5,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0]
 },
 {
-  "name": "Phychic"/*gameloft*/,
+  "name": "Psychic",
   "number": 14,
   /*          Nor Fgt Fly Poi Grn Rok Bug Gho Ste Fir Wat Grs Ele Psy Ice Drg Drk Fai */
   "offense": [1.0,2.0,1.0,2.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,0.5,1.0,1.0,0.0,1.0],
