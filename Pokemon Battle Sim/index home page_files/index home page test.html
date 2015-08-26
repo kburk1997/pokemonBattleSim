@@ -163,35 +163,256 @@ style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
 <div class = "container-fluid">
   <div class = "row">
     <div class = "col">
-      <div class="dropdown">
-        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose your 1st Pokemon:
-        <span class="caret"></span></button>
-        <ul class="dropdown-menu" id = "pokemon1">
-          <li id="1"><a href="#">Rattata</a></li>
-          <li id="2"><a href="#">Charmander</a></li>
-          <li id="3"><a href="#">Squirtle</a></li>
-          <li id="4"><a href="#">Tangela</a></li>
-          <li id="5"><a href="#">Pikachu</a></li>
-        </ul>
-      </div>
+      Select Pokemon #1:
+      <select name="pokemon1">
+        <option id = "rattata1">Rattata</option>
+        <option id = "charmander1">Charmander</option>
+        <option id = "squirtle1">Squirtle</option>
+        <option id = "tangela1">Tangela</option>
+        <option id = "pikachu1">Pikachu</option>
+      </select>
     </div>
   </div>
   <div class = "row">
     <div class = "col">
-      <div class="dropdown" align = "right">
-        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose your 2nd Pokemon:
-        <span class="caret"></span></button>
-        <ul class="dropdown-menu dropdown-menu-right" id = "pokemon2">
-          <li id="6"><a href="#">Rattata</a></li>
-          <li id="7"><a href="#">Charmander</a></li>
-          <li id="8"><a href="#">Squirtle</a></li>
-          <li id="9"><a href="#">Tangela</a></li>
-          <li id="10"><a href="#">Pikachu</a></li>
-        </ul>
-      </div>
+      Select Pokemon #2:
+      <select name="pokemon2">
+        <option id = "rattata2">Rattata</option>
+        <option id = "charmander2">Charmander</option>
+        <option id = "squirtle2">Squirtle</option>
+        <option id = "tangela2">Tangela</option>
+        <option id = "pikachu2">Pikachu</option>
+      </select>
     </div>
   </div>
 </div>
+<button onclick = "startBattle()">Go!</button>
+
+<script>
+  function startBattle(){
+    var pokemon1 = {
+      name1: "",
+      type1: "",
+      attack: 0,
+      defense: 0,
+      speed: 0,
+      HP: 0,
+    };
+    var pokemon2 = {
+      name1: "",
+      type1: "",
+      attack: 0,
+      defense: 0,
+      speed: 0,
+      HP: 0,
+    };
+
+    var struggle = {
+      name1: "struggle",
+      type1: "normal",
+      pp: 1,
+      power: 50,
+    }; //default move if no PP left
+
+    var pokemon1Move1{
+      name1: "",
+      type1: "",
+      pp: 0,
+      power: 0,
+    };
+    var pokemon1Move2{
+      name1: "",
+      type1: "",
+      pp: 0,
+      power: 0,
+    };
+    var pokemon1Move3{
+      name1: "",
+      type1: "",
+      pp: 0,
+      power: 0,
+    };
+    var pokemon1Move4{
+      name1: "",
+      type1: "",
+      pp: 0,
+      power: 0,
+    };
+
+    var pokemon2Move1{
+      name1: "",
+      type1: "",
+      pp: 0,
+      power: 0,
+    };
+    var pokemon2Move2{
+      name: "",
+      type: "",
+      pp: 0,
+      power: 0,
+    };
+    var pokemon2Move3{
+      name1: "",
+      type1: "",
+      pp: 0,
+      power: 0,
+    };
+    var pokemon2Move4{
+      name1: "",
+      type1: "",
+      pp: 0,
+      power: 0,
+    };
+
+    switch(document.getElementById("pokemon1").selectedIndex)
+      case "0":
+        pokemon1.name1="rattata";
+        pokemon1.type1="normal";
+        pokemon1.HP =30;
+        pokemon1.attack=56;
+        pokemon1.defense=35;
+        pokemon1.speed=72;
+
+        pokemon1Move1.name1 = "tackle";
+        pokemon1Move1.type1 = "normal";
+        pokemon1Move1.PP = 35;
+        pokemon1Move1.power = 35;
+
+        pokemon1Move2.name1 = "tail whip";
+        pokemon1Move2.type1 = "normal";
+        pokemon1Move2.PP = 30;
+        pokemon1Move2.power = 0;
+
+        pokemon1Move3.name1 = "quick attack";
+        pokemon1Move3.type1 = "normal";
+        pokemon1Move3.PP = 30;
+        pokemon1Move3.power = 40;
+
+        pokemon1Move4.name1 = "hyper fang";
+        pokemon1Move4.type1 = "normal";
+        pokemon1Move4.PP = 15;
+        pokemon1Move4.power = 80;
+      break;
+      case "1":
+        pokemon1.name1="charmander";
+        pokemon1.type1="fire";
+        pokemon1.HP =39;
+        pokemon1.attack=52;
+        pokemon1.defense=43;
+        pokemon1.speed=65;
+
+        pokemon1Move1.name1 = "scratch";
+        pokemon1Move1.type1 = "normal";
+        pokemon1Move1.PP = 35;
+        pokemon1Move1.power = 35;
+
+        pokemon1Move2.name1 = "tail whip";
+        pokemon1Move2.type1 = "normal";
+        pokemon1Move2.PP = 40;
+        pokemon1Move2.power = 0;
+
+        pokemon1Move3.name1 = "quick attack";
+        pokemon1Move3.type1 = "normal";
+        pokemon1Move3.PP = 25;
+        pokemon1Move3.power = 40;
+
+        pokemon1Move4.name1 = "hyper fang";
+        pokemon1Move4.type1 = "normal";
+        pokemon1Move4.PP = 30;
+        pokemon1Move4.power = 80;
+
+      break;
+      case "2":
+        pokemon1.name1="squirtle";
+        pokemon1.type1="water";
+        pokemon1.HP =44;
+        pokemon1.attack=48;
+        pokemon1.defense=65;
+        pokemon1.speed=43;
+
+        pokemon1Move1.name1 = "tackle";
+        pokemon1Move1.type1 = "normal";
+        pokemon1Move1.PP = 35;
+        pokemon1Move1.power = 35;
+
+        pokemon1Move2.name1 = "tail whip";
+        pokemon1Move2.type1 = "normal";
+        pokemon1Move2.PP = 30;
+        pokemon1Move2.power = 0;
+
+        pokemon1Move3.name1 = "quick attack";
+        pokemon1Move3.type1 = "normal";
+        pokemon1Move3.PP = 30;
+        pokemon1Move3.power = 40;
+
+        pokemon1Move4.name1 = "hyper fang";
+        pokemon1Move4.type1 = "normal";
+        pokemon1Move4.PP = 15;
+        pokemon1Move4.power = 80;
+
+      break;
+      case "3":
+        pokemon1.name1="tangela";
+        pokemon1.type1="grass";
+        pokemon1.HP =65;
+        pokemon1.attack=55;
+        pokemon1.defense=115;
+        pokemon1.speed=60;
+
+        pokemon1Move1.name1 = "tackle";
+        pokemon1Move1.type1 = "normal";
+        pokemon1Move1.PP = 35;
+        pokemon1Move1.power = 35;
+
+        pokemon1Move2.name1 = "tail whip";
+        pokemon1Move2.type1 = "normal";
+        pokemon1Move2.PP = 30;
+        pokemon1Move2.power = 0;
+
+        pokemon1Move3.name1 = "quick attack";
+        pokemon1Move3.type1 = "normal";
+        pokemon1Move3.PP = 30;
+        pokemon1Move3.power = 40;
+
+        pokemon1Move4.name1 = "hyper fang";
+        pokemon1Move4.type1 = "normal";
+        pokemon1Move4.PP = 15;
+        pokemon1Move4.power = 80;
+
+      break;
+      case "4":
+        pokemon1.name1="pikachu";
+        pokemon1.type1="electric";
+        pokemon1.HP =35;
+        pokemon1.attack=55;
+        pokemon1.defense=30;
+        pokemon1.speed=90;
+
+        pokemon1Move1.name1 = "tackle";
+        pokemon1Move1.type1 = "normal";
+        pokemon1Move1.PP = 35;
+        pokemon1Move1.power = 35;
+
+        pokemon1Move2.name1 = "tail whip";
+        pokemon1Move2.type1 = "normal";
+        pokemon1Move2.PP = 30;
+        pokemon1Move2.power = 0;
+
+        pokemon1Move3.name1 = "quick attack";
+        pokemon1Move3.type1 = "normal";
+        pokemon1Move3.PP = 30;
+        pokemon1Move3.power = 40;
+
+        pokemon1Move4.name1 = "hyper fang";
+        pokemon1Move4.type1 = "normal";
+        pokemon1Move4.PP = 15;
+        pokemon1Move4.power = 80;
+
+      break;
+  }
+
+
+</script>
 
 
 
