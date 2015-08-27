@@ -1,5 +1,4 @@
-{
-"abilities":[
+var abilities = [
 {
 	"name":"None",
 	"description":"None"
@@ -769,4 +768,3 @@
 	"description":"Affects weather and eliminates all of the Flying type's weaknesses."
 }
 ]
-}
