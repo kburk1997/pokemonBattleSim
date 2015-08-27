@@ -57,7 +57,7 @@ style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
   <div class = "row">
     <div class = "col">
       Select Pokemon #1:
-      <select id="pokemon1">
+      <select id="p1">
         <option id = "rattata1">Rattata</option>
         <option id = "charmander1">Charmander</option>
         <option id = "squirtle1">Squirtle</option>
@@ -69,7 +69,7 @@ style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
   <div class = "row">
     <div class = "col">
       Select Pokemon #2:
-      <select id="pokemon2">
+      <select id="p2">
         <option id = "rattata2">Rattata</option>
         <option id = "charmander2">Charmander</option>
         <option id = "squirtle2">Squirtle</option>
@@ -160,7 +160,7 @@ style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
       power: 0,
     };
 
-    switch(document.getElementById("pokemon1").selectedIndex){
+    switch($("#p1").selectedIndex){
       case "0":
         pokemon1.name1="rattata";
         pokemon1.type1="normal";
@@ -306,7 +306,7 @@ style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
 
       break;
     }
-      switch(document.getElementById("pokemon2").selectedIndex){
+      switch($("#p2").selectedIndex){
         case "0":
           pokemon2.name1="rattata";
           pokemon2.type1="normal";
