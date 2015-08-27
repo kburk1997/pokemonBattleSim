@@ -81,18 +81,14 @@ style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
 </div>
 </div>
 <button id = "start">Go!</button>
+<script type = "text/javascript" src = "/JSON/pokemon.json"></script>
+<script type = "text/javascript" src = "/JSON/abilities.json"></script>
+<script type = "text/javascript" src = "/JSON/moves.json"></script>
+<script type = "text/javascript" src = "/JSON/types.json"></script>
 <script type = "text/javascript">
 
   function startBattle(){
-    var pokemon1 = {
-      name1: "",
-      type1: "",
-      level: 15,
-      attack: 0,
-      defense: 0,
-      speed: 0,
-      HP: 0,
-    };
+    var pokemon1 = {};
     var pokemon2 = {
       name1: "",
       type1: "",
@@ -162,32 +158,11 @@ style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
 
     switch($("#p1").selectedIndex){
       case "0":
-        pokemon1.name1="rattata";
-        pokemon1.type1="normal";
-        pokemon1.HP =30;
-        pokemon1.attack=56;
-        pokemon1.defense=35;
-        pokemon1.speed=72;
-
-        pokemon1Move1.name1 = "tackle";
-        pokemon1Move1.type1 = "normal";
-        pokemon1Move1.PP = 35;
-        pokemon1Move1.power = 35;
-
-        pokemon1Move2.name1 = "tail whip";
-        pokemon1Move2.type1 = "normal";
-        pokemon1Move2.PP = 30;
-        pokemon1Move2.power = 0;
-
-        pokemon1Move3.name1 = "quick attack";
-        pokemon1Move3.type1 = "normal";
-        pokemon1Move3.PP = 30;
-        pokemon1Move3.power = 40;
-
-        pokemon1Move4.name1 = "hyper fang";
-        pokemon1Move4.type1 = "normal";
-        pokemon1Move4.PP = 15;
-        pokemon1Move4.power = 80;
+      pokemon1=pokemon[19];
+      pokemon1move1 = moves[546];
+      pokemon1move2 = moves[549];
+      pokemon1move3 = moves[411];
+      pokemon1move4= moves[190];
       break;
       case "1":
         pokemon1.name1="charmander";
