@@ -11,6 +11,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=Originator content="Microsoft Word 15">
 <link rel=File-List href="index%20home%20page_files/filelist.xml">
 <link rel=Edit-Time-Data href="index%20home%20page_files/editdata.mso">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 <!--[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
@@ -23,10 +25,10 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>student</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>student</o:LastAuthor>
-  <o:Revision>2</o:Revision>
-  <o:TotalTime>34</o:TotalTime>
-  <o:Created>2015-08-26T18:08:00Z</o:Created>
-  <o:LastSaved>2015-08-26T18:08:00Z</o:LastSaved>
+  <o:Revision>6</o:Revision>
+  <o:TotalTime>70</o:TotalTime>
+  <o:Created>2015-08-26T18:22:00Z</o:Created>
+  <o:LastSaved>2015-08-26T18:58:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
   <o:Words>8</o:Words>
   <o:Characters>46</o:Characters>
@@ -39,8 +41,8 @@ w\:* {behavior:url(#default#VML);}
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
 </xml><![endif]-->
-<link rel=dataStoreItem href="index%20home%20page_files/item0007.xml"
-target="index%20home%20page_files/props008.xml">
+<link rel=dataStoreItem href="index%20home%20page_files/item0009.xml"
+target="index%20home%20page_files/props010.xml">
 <link rel=themeData href="index%20home%20page_files/themedata.thmx">
 <link rel=colorSchemeMapping
 href="index%20home%20page_files/colorschememapping.xml">
@@ -70,6 +72,7 @@ href="index%20home%20page_files/colorschememapping.xml">
    <w:DontFlipMirrorIndents/>
    <w:OverrideTableStyleHps/>
   </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
   <m:mathPr>
    <m:mathFont m:val="Cambria Math"/>
    <m:brkBin m:val="before"/>
@@ -670,6 +673,20 @@ href="index%20home%20page_files/colorschememapping.xml">
 	mso-generic-font-family:swiss;
 	mso-font-pitch:variable;
 	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:KaiTi;
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+@font-face
+	{font-family:"\@KaiTi";
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -679,7 +696,7 @@ href="index%20home%20page_files/colorschememapping.xml">
 	margin-right:0in;
 	margin-bottom:8.0pt;
 	margin-left:0in;
-	line-height:107%;
+	line-height:106%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Calibri","sans-serif";
@@ -697,6 +714,9 @@ span.SpellE
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
 	font-family:"Calibri","sans-serif";
 	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
@@ -706,10 +726,6 @@ span.SpellE
 	mso-hansi-theme-font:minor-latin;
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;}
-.MsoPapDefault
-	{mso-style-type:export-only;
-	margin-bottom:8.0pt;
-	line-height:107%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:1.0in 1.0in 1.0in 1.0in;
@@ -731,13 +747,10 @@ div.WordSection1
 	mso-style-priority:99;
 	mso-style-parent:"";
 	mso-padding-alt:0in 5.4pt 0in 5.4pt;
-	mso-para-margin-top:0in;
-	mso-para-margin-right:0in;
-	mso-para-margin-bottom:8.0pt;
-	mso-para-margin-left:0in;
-	line-height:107%;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
 	mso-pagination:widow-orphan;
-	font-size:11.0pt;
+	font-size:10.0pt;
 	font-family:"Calibri","sans-serif";
 	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
@@ -752,38 +765,67 @@ div.WordSection1
  </o:shapelayout></xml><![endif]-->
 </head>
 
-<body lang=EN-US style='tab-interval:.5in'>
+<body bgcolor=yellow lang=EN-US style='tab-interval:.5in'>
 
 <div class=WordSection1>
 
-<p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
-style='font-size:48.0pt;line-height:107%'>Pokemon</span></span><span
-style='font-size:48.0pt;line-height:107%'> Battle Simulator<o:p></o:p></span></p>
-
-<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
-
-<p class=MsoNormal align=center style='text-align:center' id = "choose"><span
-style='font-size:18.0pt;line-height:107%'>Choose First Pokemon</span></p>
+<p class=MsoNormal align=center style='text-align:center'><span class=SpellE><b
+style='mso-bidi-font-weight:normal'><span style='font-size:48.0pt;line-height:
+106%;font-family:KaiTi'>Pokemon</span></b></span><b style='mso-bidi-font-weight:
+normal'><span style='font-size:48.0pt;line-height:106%;font-family:KaiTi'>
+Battle Simulator<o:p></o:p></span></b></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:18.0pt;line-height:107%'><o:p>&nbsp;</o:p></span></p>
+style='font-family:KaiTi'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:18.0pt;line-height:106%;font-family:KaiTi'>Choose
+Your <span class=SpellE>Pokemon</span>: <o:p></o:p></span></b></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:18.0pt;line-height:107%'><o:p>&nbsp;</o:p></span></p>
+style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal align=center style='text-align:center'><!--[if gte vml 1]><v:shapetype
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="Picture_x0020_2" o:spid="_x0000_i1025" type="#_x0000_t75"
+ style='width:327.75pt;height:140.25pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="index%20home%20page_files/image001.gif" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=437 height=187
+src="index%20home%20page_files/image001.gif" v:shapes="Picture_x0020_2"><![endif]></span><!--[if gte vml 1]><v:shapetype
  id="_x0000_t202" coordsize="21600,21600" o:spt="202" path="m,l,21600r21600,l21600,xe">
  <v:stroke joinstyle="miter"/>
  <v:path gradientshapeok="t" o:connecttype="rect"/>
 </v:shapetype><v:shape id="Text_x0020_Box_x0020_2" o:spid="_x0000_s1026"
  type="#_x0000_t202" style='position:absolute;left:0;text-align:left;
- margin-left:0;margin-top:14.4pt;width:228.8pt;height:30.45pt;z-index:251659264;
- visibility:visible;mso-wrap-style:square;mso-width-percent:400;
- mso-height-percent:200;mso-wrap-distance-left:9pt;mso-wrap-distance-top:3.6pt;
+ margin-left:0;margin-top:14.4pt;width:467.25pt;height:63.75pt;z-index:251659264;
+ visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-wrap-distance-left:9pt;mso-wrap-distance-top:3.6pt;
  mso-wrap-distance-right:9pt;mso-wrap-distance-bottom:3.6pt;
  mso-position-horizontal:center;mso-position-horizontal-relative:text;
  mso-position-vertical:absolute;mso-position-vertical-relative:text;
- mso-width-percent:400;mso-height-percent:200;mso-width-relative:margin;
+ mso-width-percent:0;mso-height-percent:0;mso-width-relative:margin;
  mso-height-relative:margin;v-text-anchor:top' o:gfxdata="UEsDBBQABgAIAAAAIQC2gziS/gAAAOEBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbJSRQU7DMBBF
 90jcwfIWJU67QAgl6YK0S0CoHGBkTxKLZGx5TGhvj5O2G0SRWNoz/78nu9wcxkFMGNg6quQqL6RA
 0s5Y6ir5vt9lD1JwBDIwOMJKHpHlpr69KfdHjyxSmriSfYz+USnWPY7AufNIadK6MEJMx9ApD/oD
@@ -794,46 +836,48 @@ bHOkkMFqwzAMhu+DvYPRfXGawxijTi+j0GvpHsDYimMaW0Yy2fr2M4PBMnrbUb/Q94l/f/hMi1qR
 JVI2sOt6UJgd+ZiDgffL8ekFlFSbvV0oo4EbChzGx4f9GRdb25HMsYhqlCwG5lrLq9biZkxWOiqY
 22YiTra2kYMu1l1tQD30/bPm3wwYN0x18gb45AdQl1tp5j/sFB2T0FQ7R0nTNEV3j6o9feQzro1i
 OWA14Fm+Q8a1a8+Bvu/d/dMb2JY5uiPbhG/ktn4cqGU/er3pcvwCAAD//wMAUEsDBBQABgAIAAAA
-IQAmy+1iJQIAAEcEAAAOAAAAZHJzL2Uyb0RvYy54bWysU9uO2yAQfa/Uf0C8N3a8SXZjxVlts01V
-aXuRdvsBGOMYFRgKJHb69R1wNo227UtVHhDDDIeZc2ZWt4NW5CCcl2AqOp3klAjDoZFmV9GvT9s3
-N5T4wEzDFBhR0aPw9Hb9+tWqt6UooAPVCEcQxPiytxXtQrBllnneCc38BKww6GzBaRbQdLuscaxH
-dK2yIs8XWQ+usQ648B5v70cnXSf8thU8fG5bLwJRFcXcQtpd2uu4Z+sVK3eO2U7yUxrsH7LQTBr8
-9Ax1zwIjeyd/g9KSO/DQhgkHnUHbSi5SDVjNNH9RzWPHrEi1IDnenmny/w+Wfzp8cUQ2FS2m15QY
-plGkJzEE8hYGUkR+eutLDHu0GBgGvEadU63ePgD/5omBTcfMTtw5B30nWIP5TePL7OLpiOMjSN1/
-hAa/YfsACWhonY7kIR0E0VGn41mbmArHy+JqkS+v0MXRN53ls0WR1MtY+fzcOh/eC9AkHirqUPwE
-zw4PPsR0WPkcEn/zoGSzlUolw+3qjXLkwLBRtmmlCl6EKUP6ii7nxXxk4K8QeVp/gtAyYMcrqSt6
-cw5iZeTtnWlSPwYm1XjGlJU5ERm5G1kMQz2chKmhOSKlDsbOxknEQwfuByU9dnVF/fc9c4IS9cGg
-LMvpbBbHIBmz+TVySNylp770MMMRqqKBkvG4CWl0EmH2DuXbykRs1HnM5JQrdmvi+zRZcRwu7RT1
-a/7XPwEAAP//AwBQSwMEFAAGAAgAAAAhAEhbJ3LbAAAABwEAAA8AAABkcnMvZG93bnJldi54bWxM
-j0FPwzAMhe9I/IfISNxYsgJjKk2nqYLrpG1IXL0mtIXEKU3alX+PObGbn5/13udiM3snJjvELpCG
-5UKBsFQH01Gj4e34ercGEROSQRfIavixETbl9VWBuQln2tvpkBrBIRRz1NCm1OdSxrq1HuMi9JbY
-+wiDx8RyaKQZ8Mzh3slMqZX02BE3tNjbqrX112H0GsZjtZ32Vfb5Pu3Mw271gh7dt9a3N/P2GUSy
-c/o/hj98RoeSmU5hJBOF08CPJA3ZmvnZvX9a8nDixaNSIMtCXvKXvwAAAP//AwBQSwECLQAUAAYA
-CAAAACEAtoM4kv4AAADhAQAAEwAAAAAAAAAAAAAAAAAAAAAAW0NvbnRlbnRfVHlwZXNdLnhtbFBL
-AQItABQABgAIAAAAIQA4/SH/1gAAAJQBAAALAAAAAAAAAAAAAAAAAC8BAABfcmVscy8ucmVsc1BL
-AQItABQABgAIAAAAIQAmy+1iJQIAAEcEAAAOAAAAAAAAAAAAAAAAAC4CAABkcnMvZTJvRG9jLnht
-bFBLAQItABQABgAIAAAAIQBIWydy2wAAAAcBAAAPAAAAAAAAAAAAAAAAAH8EAABkcnMvZG93bnJl
-di54bWxQSwUGAAAAAAQABADzAAAAhwUAAAAA
+IQCUJxMBIwIAAEYEAAAOAAAAZHJzL2Uyb0RvYy54bWysU9tu2zAMfR+wfxD0vtjxkqYx4hRdugwD
+ugvQ7gNkWY6FSaImKbGzrx8lp2l2wR6G6UEgReqQPCRXN4NW5CCcl2AqOp3klAjDoZFmV9Evj9tX
+15T4wEzDFBhR0aPw9Gb98sWqt6UooAPVCEcQxPiytxXtQrBllnneCc38BKwwaGzBaRZQdbuscaxH
+dK2yIs+vsh5cYx1w4T2+3o1Guk74bSt4+NS2XgSiKoq5hXS7dNfxztYrVu4cs53kpzTYP2ShmTQY
+9Ax1xwIjeyd/g9KSO/DQhgkHnUHbSi5SDVjNNP+lmoeOWZFqQXK8PdPk/x8s/3j47IhsKlpMF5QY
+prFJj2II5A0MpIj89NaX6PZg0TEM+Ix9TrV6ew/8qycGNh0zO3HrHPSdYA3mN40/s4uvI46PIHX/
+ARoMw/YBEtDQOh3JQzoIomOfjufexFQ4Ps6Xr2f5Yk4JR9t1vrwq5ikEK59+W+fDOwGaRKGiDnuf
+0Nnh3oeYDSufXGIwD0o2W6lUUtyu3ihHDgznZJvOCf0nN2VIX9HlHGP/HSJP508QWgYceCV1rCKe
+6MTKSNtb0yQ5MKlGGVNW5sRjpG4kMQz1gI6R3BqaIzLqYBxsXEQUOnDfKelxqCvqv+2ZE5So9wa7
+spzOZnELkjKbLwpU3KWlvrQwwxGqooGSUdyEtDkxXwO32L1WJmKfMznlisOa+D4tVtyGSz15Pa//
++gcAAAD//wMAUEsDBBQABgAIAAAAIQD3UGR93gAAAAcBAAAPAAAAZHJzL2Rvd25yZXYueG1sTI/B
+TsMwEETvSPyDtUhcEHVo2pCGOBVCAsEN2gqubrJNIux1sN00/D3LCY6jGc28KdeTNWJEH3pHCm5m
+CQik2jU9tQp228frHESImhptHKGCbwywrs7PSl007kRvOG5iK7iEQqEVdDEOhZSh7tDqMHMDEnsH
+562OLH0rG69PXG6NnCdJJq3uiRc6PeBDh/Xn5mgV5Ivn8SO8pK/vdXYwq3h1Oz59eaUuL6b7OxAR
+p/gXhl98RoeKmfbuSE0QRgEfiQrmOfOzu0oXSxB7ji2zFGRVyv/81Q8AAAD//wMAUEsBAi0AFAAG
+AAgAAAAhALaDOJL+AAAA4QEAABMAAAAAAAAAAAAAAAAAAAAAAFtDb250ZW50X1R5cGVzXS54bWxQ
+SwECLQAUAAYACAAAACEAOP0h/9YAAACUAQAACwAAAAAAAAAAAAAAAAAvAQAAX3JlbHMvLnJlbHNQ
+SwECLQAUAAYACAAAACEAlCcTASMCAABGBAAADgAAAAAAAAAAAAAAAAAuAgAAZHJzL2Uyb0RvYy54
+bWxQSwECLQAUAAYACAAAACEA91Bkfd4AAAAHAQAADwAAAAAAAAAAAAAAAAB9BAAAZHJzL2Rvd25y
+ZXYueG1sUEsFBgAAAAAEAAQA8wAAAIgFAAAAAA==
 ">
- <v:textbox style='mso-fit-shape-to-text:t'>
+ <v:textbox>
   <![if !mso]>
   <table cellpadding=0 cellspacing=0 width="100%">
    <tr>
     <td><![endif]>
     <div>
-    <p class=MsoNormal>Name:</p>
+    <p class=MsoNormal><span class=SpellE><span style='font-size:16.0pt;
+    line-height:106%'>Pokemon</span></span><span style='font-size:16.0pt;
+    line-height:106%'> Name:<o:p></o:p></span></p>
     </div>
     <![if !mso]></td>
    </tr>
   </table>
   <![endif]></v:textbox>
  <w:wrap type="square"/>
-</v:shape><![endif]--><![if !vml]><img width=311 height=47
-src="index%20home%20page_files/image001.png" align=left hspace=12 vspace=5
-alt="Text Box: Name:" v:shapes="Text_x0020_Box_x0020_2"><![endif]><span
-style='font-size:18.0pt;line-height:107%'><o:p></o:p></span></p>
+</v:shape><![endif]--><![if !vml]><img width=629 height=91
+src="index%20home%20page_files/image002.png" align=left hspace=12 vspace=5
+alt="Text Box: Pokemon Name:" v:shapes="Text_x0020_Box_x0020_2"><![endif]><span
+style='font-size:18.0pt;line-height:106%'><o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='font-size:18.0pt;line-height:107%'><o:p>&nbsp;</o:p></span></p>
+<p class=MsoNormal><span style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
 
 </div>
 

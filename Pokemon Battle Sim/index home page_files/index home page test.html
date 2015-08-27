@@ -57,7 +57,7 @@ style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
   <div class = "row">
     <div class = "col">
       Select Pokemon #1:
-      <select name="pokemon1">
+      <select id="pokemon1">
         <option id = "rattata1">Rattata</option>
         <option id = "charmander1">Charmander</option>
         <option id = "squirtle1">Squirtle</option>
@@ -69,7 +69,7 @@ style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
   <div class = "row">
     <div class = "col">
       Select Pokemon #2:
-      <select name="pokemon2">
+      <select id="pokemon2">
         <option id = "rattata2">Rattata</option>
         <option id = "charmander2">Charmander</option>
         <option id = "squirtle2">Squirtle</option>
@@ -79,13 +79,14 @@ style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
     </div>
   </div>
 </div>
-<button onclick = "startBattle()">Go!</button>
+</div>
+<script type = "text/javascript">
 
-<script>
   function startBattle(){
     var pokemon1 = {
       name1: "",
       type1: "",
+      level: 15,
       attack: 0,
       defense: 0,
       speed: 0,
@@ -95,6 +96,7 @@ style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
       name1: "",
       type1: "",
       attack: 0,
+      level: 15,
       defense: 0,
       speed: 0,
       HP: 0,
@@ -107,57 +109,57 @@ style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
       power: 50,
     }; //default move if no PP left
 
-    var pokemon1Move1{
+    var pokemon1Move1= {
       name1: "",
       type1: "",
       pp: 0,
       power: 0,
     };
-    var pokemon1Move2{
+    var pokemon1Move2= {
       name1: "",
       type1: "",
       pp: 0,
       power: 0,
     };
-    var pokemon1Move3{
+    var pokemon1Move3={
       name1: "",
       type1: "",
       pp: 0,
       power: 0,
     };
-    var pokemon1Move4{
+    var pokemon1Move4={
       name1: "",
       type1: "",
       pp: 0,
       power: 0,
     };
 
-    var pokemon2Move1{
+    var pokemon2Move1={
       name1: "",
       type1: "",
       pp: 0,
       power: 0,
     };
-    var pokemon2Move2{
+    var pokemon2Move2={
       name: "",
       type: "",
       pp: 0,
       power: 0,
     };
-    var pokemon2Move3{
+    var pokemon2Move3={
       name1: "",
       type1: "",
       pp: 0,
       power: 0,
     };
-    var pokemon2Move4{
+    var pokemon2Move4={
       name1: "",
       type1: "",
       pp: 0,
       power: 0,
     };
 
-    switch(document.getElementById("pokemon1").selectedIndex)
+    switch(document.getElementById("pokemon1").selectedIndex){
       case "0":
         pokemon1.name1="rattata";
         pokemon1.type1="normal";
@@ -197,22 +199,22 @@ style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
         pokemon1Move1.name1 = "scratch";
         pokemon1Move1.type1 = "normal";
         pokemon1Move1.PP = 35;
-        pokemon1Move1.power = 35;
+        pokemon1Move1.power = 40;
 
-        pokemon1Move2.name1 = "tail whip";
+        pokemon1Move2.name1 = "growl";
         pokemon1Move2.type1 = "normal";
         pokemon1Move2.PP = 40;
         pokemon1Move2.power = 0;
 
-        pokemon1Move3.name1 = "quick attack";
-        pokemon1Move3.type1 = "normal";
+        pokemon1Move3.name1 = "ember";
+        pokemon1Move3.type1 = "fire";
         pokemon1Move3.PP = 25;
         pokemon1Move3.power = 40;
 
-        pokemon1Move4.name1 = "hyper fang";
+        pokemon1Move4.name1 = "leer";
         pokemon1Move4.type1 = "normal";
         pokemon1Move4.PP = 30;
-        pokemon1Move4.power = 80;
+        pokemon1Move4.power = 0;
 
       break;
       case "2":
@@ -233,15 +235,15 @@ style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
         pokemon1Move2.PP = 30;
         pokemon1Move2.power = 0;
 
-        pokemon1Move3.name1 = "quick attack";
-        pokemon1Move3.type1 = "normal";
+        pokemon1Move3.name1 = "bubble";
+        pokemon1Move3.type1 = "water";
         pokemon1Move3.PP = 30;
-        pokemon1Move3.power = 40;
+        pokemon1Move3.power = 20;
 
-        pokemon1Move4.name1 = "hyper fang";
+        pokemon1Move4.name1 = "water gun";
         pokemon1Move4.type1 = "normal";
-        pokemon1Move4.PP = 15;
-        pokemon1Move4.power = 80;
+        pokemon1Move4.PP = 25;
+        pokemon1Move4.power = 40;
 
       break;
       case "3":
@@ -252,25 +254,25 @@ style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
         pokemon1.defense=115;
         pokemon1.speed=60;
 
-        pokemon1Move1.name1 = "tackle";
+        pokemon1Move1.name1 = "constrict";
         pokemon1Move1.type1 = "normal";
         pokemon1Move1.PP = 35;
-        pokemon1Move1.power = 35;
+        pokemon1Move1.power = 10;
 
-        pokemon1Move2.name1 = "tail whip";
+        pokemon1Move2.name1 = "bind";
         pokemon1Move2.type1 = "normal";
-        pokemon1Move2.PP = 30;
-        pokemon1Move2.power = 0;
+        pokemon1Move2.PP = 20;
+        pokemon1Move2.power = 15;
 
-        pokemon1Move3.name1 = "quick attack";
-        pokemon1Move3.type1 = "normal";
-        pokemon1Move3.PP = 30;
-        pokemon1Move3.power = 40;
+        pokemon1Move3.name1 = "absorb";
+        pokemon1Move3.type1 = "grass";
+        pokemon1Move3.PP = 20;
+        pokemon1Move3.power = 20;
 
-        pokemon1Move4.name1 = "hyper fang";
-        pokemon1Move4.type1 = "normal";
-        pokemon1Move4.PP = 15;
-        pokemon1Move4.power = 80;
+        pokemon1Move4.name1 = "vine whip";
+        pokemon1Move4.type1 = "grass";
+        pokemon1Move4.PP = 35;
+        pokemon1Move4.power = 10;
 
       break;
       case "4":
@@ -281,36 +283,358 @@ style='font-size:18.0pt;line-height:106%'><o:p>&nbsp;</o:p></span></p>
         pokemon1.defense=30;
         pokemon1.speed=90;
 
-        pokemon1Move1.name1 = "tackle";
-        pokemon1Move1.type1 = "normal";
-        pokemon1Move1.PP = 35;
-        pokemon1Move1.power = 35;
+        pokemon1Move1.name1 = "thundershock";
+        pokemon1Move1.type1 = "electric";
+        pokemon1Move1.PP = 30;
+        pokemon1Move1.power = 40;
 
         pokemon1Move2.name1 = "tail whip";
         pokemon1Move2.type1 = "normal";
         pokemon1Move2.PP = 30;
         pokemon1Move2.power = 0;
 
-        pokemon1Move3.name1 = "quick attack";
+        pokemon1Move3.name1 = "growl";
         pokemon1Move3.type1 = "normal";
-        pokemon1Move3.PP = 30;
-        pokemon1Move3.power = 40;
+        pokemon1Move3.PP = 40;
+        pokemon1Move3.power = 0;
 
-        pokemon1Move4.name1 = "hyper fang";
-        pokemon1Move4.type1 = "normal";
-        pokemon1Move4.PP = 15;
-        pokemon1Move4.power = 80;
+        pokemon1Move4.name1 = "thunder wave";
+        pokemon1Move4.type1 = "electric";
+        pokemon1Move4.PP = 20;
+        pokemon1Move4.power = 0;
 
       break;
-  }
+    }
+      switch(document.getElementById("pokemon2").selectedIndex){
+        case "0":
+          pokemon2.name1="rattata";
+          pokemon2.type1="normal";
+          pokemon2.HP =30;
+          pokemon2.attack=56;
+          pokemon2.defense=35;
+          pokemon2.speed=72;
 
+          pokemon2Move1.name1 = "tackle";
+          pokemon2Move1.type1 = "normal";
+          pokemon2Move1.PP = 35;
+          pokemon2Move1.power = 35;
+
+          pokemon2Move2.name1 = "tail whip";
+          pokemon2Move2.type1 = "normal";
+          pokemon2Move2.PP = 30;
+          pokemon2Move2.power = 0;
+
+          pokemon2Move3.name1 = "quick attack";
+          pokemon2Move3.type1 = "normal";
+          pokemon2Move3.PP = 30;
+          pokemon2Move3.power = 40;
+
+          pokemon2Move4.name1 = "hyper fang";
+          pokemon2Move4.type1 = "normal";
+          pokemon2Move4.PP = 15;
+          pokemon2Move4.power = 80;
+        break;
+        case "1":
+          pokemon2.name1="charmander";
+          pokemon2.type1="fire";
+          pokemon2.HP =39;
+          pokemon2.attack=52;
+          pokemon2.defense=43;
+          pokemon2.speed=65;
+
+          pokemon2Move1.name1 = "scratch";
+          pokemon2Move1.type1 = "normal";
+          pokemon2Move1.PP = 35;
+          pokemon2Move1.power = 40;
+
+          pokemon2Move2.name1 = "growl";
+          pokemon2Move2.type1 = "normal";
+          pokemon2Move2.PP = 40;
+          pokemon2Move2.power = 0;
+
+          pokemon2Move3.name1 = "ember";
+          pokemon2Move3.type1 = "fire";
+          pokemon2Move3.PP = 25;
+          pokemon2Move3.power = 40;
+
+          pokemon2Move4.name1 = "leer";
+          pokemon2Move4.type1 = "normal";
+          pokemon2Move4.PP = 30;
+          pokemon2Move4.power = 0;
+
+        break;
+        case "2":
+          pokemon2.name1="squirtle";
+          pokemon2.type1="water";
+          pokemon2.HP =44;
+          pokemon2.attack=48;
+          pokemon2.defense=65;
+          pokemon2.speed=43;
+
+          pokemon2Move1.name1 = "tackle";
+          pokemon2Move1.type1 = "normal";
+          pokemon2Move1.PP = 35;
+          pokemon2Move1.power = 35;
+
+          pokemon2Move2.name1 = "tail whip";
+          pokemon2Move2.type1 = "normal";
+          pokemon2Move2.PP = 30;
+          pokemon2Move2.power = 0;
+
+          pokemon2Move3.name1 = "bubble";
+          pokemon2Move3.type1 = "water";
+          pokemon2Move3.PP = 30;
+          pokemon2Move3.power = 20;
+
+          pokemon2Move4.name1 = "water gun";
+          pokemon2Move4.type1 = "normal";
+          pokemon2Move4.PP = 25;
+          pokemon2Move4.power = 40;
+
+        break;
+        case "3":
+          pokemon2.name1="tangela";
+          pokemon2.type1="grass";
+          pokemon2.HP =65;
+          pokemon2.attack=55;
+          pokemon2.defense=115;
+          pokemon2.speed=60;
+
+          pokemon2Move1.name1 = "constrict";
+          pokemon2Move1.type1 = "normal";
+          pokemon2Move1.PP = 35;
+          pokemon2Move1.power = 10;
+
+          pokemon2Move2.name1 = "bind";
+          pokemon2Move2.type1 = "normal";
+          pokemon2Move2.PP = 20;
+          pokemon2Move2.power = 15;
+
+          pokemon2Move3.name1 = "absorb";
+          pokemon2Move3.type1 = "grass";
+          pokemon2Move3.PP = 20;
+          pokemon2Move3.power = 20;
+
+          pokemon2Move4.name1 = "vine whip";
+          pokemon2Move4.type1 = "grass";
+          pokemon2Move4.PP = 35;
+          pokemon2Move4.power = 10;
+
+        break;
+        case "4":
+          pokemon2.name1="pikachu";
+          pokemon2.type1="electric";
+          pokemon2.HP =35;
+          pokemon2.attack=55;
+          pokemon2.defense=30;
+          pokemon2.speed=90;
+
+          pokemon2Move1.name1 = "thundershock";
+          pokemon2Move1.type1 = "electric";
+          pokemon2Move1.PP = 30;
+          pokemon2Move1.power = 40;
+
+          pokemon2Move2.name1 = "tail whip";
+          pokemon2Move2.type1 = "normal";
+          pokemon2Move2.PP = 30;
+          pokemon2Move2.power = 0;
+
+          pokemon2Move3.name1 = "growl";
+          pokemon2Move3.type1 = "normal";
+          pokemon2Move3.PP = 40;
+          pokemon2Move3.power = 0;
+
+          pokemon2Move4.name1 = "thunder wave";
+          pokemon2Move4.type1 = "electric";
+          pokemon2Move4.PP = 20;
+          pokemon2Move4.power = 0;
+
+        break;
+      }
+
+    pokemon1Learnset = [pokemon1Move1, pokemon1Move2, pokemon1Move3, pokemon1Move4];
+    pokemon2Learnset = [pokemon2Move1, pokemon2Move2, pokemon2Move3, pokemon2Move4];
+
+        function calculateUnmodifiedDamage(a, fightMove, target){
+          return calculateLevelModifier(a.level) * calculateAttackDefenseRatio(a.attack, target.defense) * fightMove.power +2 ;
+        }
+
+        function calculateTotalModifier(fightMove){
+          return calculateSTAB(fightMove) * calculateTypeModifier(fightMove);
+        }
+
+        function calculateTypeModifier(fightMove, target){
+          var mod = 1.0;
+          switch (fightMove.type1) {
+          case "fire":
+            switch (target.type1) {
+                  case "fire":
+                  case "water":
+                    mod = 0.5;
+                    break;
+                  case "grass":
+                      mod = 2.0;
+                      break;
+                  default:
+                      mod = 1.0;
+                      break;
+              }
+              break;
+          case "water":
+              switch (target.type1) {
+                  case "water":
+                  case "grass":
+                      mod = 0.5;
+                      break;
+                  case "fire":
+                      mod = 2.0;
+                      break;
+                  default:
+                      mod = 1.0;
+                      break;
+              }
+              break;
+          case "electric":
+              switch (target.type1) {
+                  case "electric":
+                  case "grass":
+                      mod = 0.5;
+                      break;
+                  case "water":
+                      mod = 2.0;
+                      break;
+                  default:
+                      mod = 1.0;
+                      break;
+              }
+              break;
+          case "grass":
+              switch (target.type1) {
+                  case "fire":
+                  case "grass":
+                      mod = 0.5;
+                      break;
+                  case "water":
+                      mod = 2.0;
+                      break;
+                  default:
+                      mod = 1.0;
+                      break;
+              }
+              break;
+          default:
+              mod = 1.0;
+              break;
+            }
+          return mod;
+        }
+
+
+        function calculateSTAB(a, fightMove){
+          if(fightMove.type1 == a.type1){
+            return 1.5;
+          }
+          else{
+            return 1;
+          }
+        }
+
+        function calculateLevelModifier(level){
+          var result;
+          result = 2*level;
+          result += 10;
+          result /= 250;
+          return result;
+        }
+
+        function calculateAttackDefenseRatio(attack, defense){
+          return attack/defense;
+        }
+
+        function calculateMoveValue(fightMove){
+            var moveValue = 0;
+            if (fightMove.PP = 0){
+              moveValue = 0;
+            }
+            else{
+              moveValue = ((fightMove.PP*2) +fightMove.power)/2;
+            }
+            return moveValue;
+        }
+
+        function selectMove(learnset){
+          var maxIndex = 0;
+          var maxValue = 0;
+          for (var i = 0; i<learnset.length; i++){
+            if (calculateMoveValue(learnset[i]) > maxValue){
+              maxValue = calculateMoveValue(learnset[i]);
+              maxIndex = i;
+            }
+          }
+          if (maxValue == 0){
+            return struggle;
+          }
+          else{
+            return learnset[maxIndex];
+          }
+        }
+
+        function fight(a, fightMove, b){
+          var damage;
+          damage = calculateUnmodifiedDamage(a, fightMove, b) * calculateTotalModifier();
+          b.HP = (b.HP - damage);
+          alert(a.name1.toUpperCase()+" used " + fightMove.name1.toUpperCase());
+          if (calculateTypeModifier(fightMove, b) == 2.0){
+            alert("It’s super effective!");
+          }
+          if(calculateTypeModifier(fightMove, b) == 0.5){
+            alert("It’s not very effective..");
+          }
+
+
+        }
+
+        alert("POKEMON BATTLE");
+        alert(pokemon1.name1.toUpperCase()+" versus "+ pokemon2.name1.toUpperCase());
+        alert("GO!");
+
+        while(pokemon1.HP >= 1 && pokemon2.HP >= 1){
+          if (pokemon1.speed > pokemon2.speed){
+            //a goes first, then b
+            fight(pokemon1, selectMove(pokemon1Learnset), pokemon2);
+            if (pokemon2.HP < 1){
+              alert(pokemon2.name1.toUpperCase() + " fainted");
+            }
+            else{
+              fight(pokemon2, selectMove(pokemon2Learnset), pokemon1);
+            }
+          }
+          else{
+            //b goes first, then a
+              fight(pokemon2, selectMove(pokemon2Learnset), pokemon1);
+              if (pokemon1.HP <1){
+                alert(pokemon1.name1.toUpperCase() + " fainted");
+              }
+              else{
+                fight(pokemon1, selectMove(pokemon1Learnset), pokemon2);
+              }
+          }
+        }
+        if (pokemon1.HP >= 1){
+          alert(pokemon1.name1.toUpperCase()+ " wins");
+        }
+        if (pokemon2.HP >= 1){
+          alert(pokemon2.name1.toUpperCase()+ " wins");
+        }
+        else{
+          alert("It's a tie");
+        }
+
+  }
+  document.getElementById("start").onclick = startBattle;
 
 </script>
-
-
-
-
-</div>
+<button id = "start">Go!</button>
 
 </body>
 
